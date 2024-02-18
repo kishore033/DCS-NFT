@@ -755,12 +755,15 @@ form
         }
         @media screen and (max-width: 680px){
         
-        
+        html{
+            overflow-x: hidden !important;
+        }
         
         body {
           background-color: black;
             margin: 0;
             width: 100%;
+            overflow-x: hidden;
             font-family: Arial, sans-serif;
         }
 	.backimg{
@@ -1056,17 +1059,31 @@ form
         }
         .image11{
             float: left;
+            margin-left: 9% !important;
+            
         }
 .image12{
     float: right;
+    margin-right: 9% !important;
 }
 
 .image13{
             float: left;
+            margin-left: 9% !important;
         }
         .image14{
     float: right;
+    margin-right: 9% !important;
+} 
+
+.image11 img,.image12 img,.image13 img,.image14 img{
+    margin-right: 10%;
+    margin-left: 0;
+
 }
+
+
+
         .text4img{
            
             margin-left: 8%;
@@ -1093,7 +1110,7 @@ form
       flex: 0 0 50%; /* Make each column take half of the container width */
       box-sizing: border-box;
       padding: 10px; /* Add padding to create space around the images */
-      margin: 15px;
+      margin: 3%;
       background-color:#333 ;
       display: block;
       
@@ -1120,7 +1137,7 @@ form
       flex: 0 0 50%; /* Make each column take half of the container width */
       box-sizing: border-box;
       padding: 10px; /* Add padding to create space around the images */
-      margin: 15px;
+      margin: 3%;
       background-color:#333 ;
       
       display: block;
@@ -1626,7 +1643,33 @@ form
             margin-left: 40% !important;
         }
         
+        @media  screen and (max-width: 400px) {
+            .image-container1 div {
+      flex: 0 0 50%; /* Make each column take half of the container width */
+      box-sizing: border-box;
+      padding: 10px; /* Add padding to create space around the images */
+      margin: 1%;
+      background-color:#333 ;
+      
+      display: block;
+      border-radius: 5%;
+    }
+    .image-container div {
+      flex: 0 0 50%; /* Make each column take half of the container width */
+      box-sizing: border-box;
+      padding: 10px; /* Add padding to create space around the images */
+      margin: 1%;
+      background-color:#333 ;
+      
+      display: block;
+      border-radius: 5%;
+    }
         }
+
+
+        }
+        
+     
     
     
 
